@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_friends" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_messages" />
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_edit_profile" />
+    </group>
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_close_light"
+                android:title="@string/menu_exit" />
+        </menu>
+    </item>
+
+</menu>

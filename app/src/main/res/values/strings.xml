@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">OopsWhatNow</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_subscriptions">Subscriptions</string>
+    <string name="menu_friends">Friends</string>
+    <string name="menu_messages">Messages</string>
+    <string name="menu_edit_profile">Edit Profile</string>
+    <string name="menu_exit">Exit</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Dashboard</item>
+        <!--<item>Subscriptions</item>-->
+        <item>Friends</item>
+        <item>Messages</item>
+        <item>Edit Profile</item>
+    </string-array>
+
+
+
+    <!-- Strings related to Launcher END-->
+    <string name="title_activity_launcher">Oops What Now?</string>
+    <string name="action_continue_button">Continue to App</string>
+    <string name="content_launcher"> OOPS \n WHAT \n NOW? </string>
+    <!-- Strings related to Launcher END-->
+
+
+    <!-- Strings related to login START -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+
+    <string name="action_sign_in">Sign in or Register</string>
+    <string name="action_register">Register</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        auto completions."
+    </string>
+    <!-- Strings related to login END-->
+
+
+    <!-- Strings related to RegistrationActivity START -->
+    <string name="title_activity_registration"> Registration</string>
+
+    <string name="action_choose_contact">Invite Friend</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="reg_fname">First Name</string>
+    <string name="reg_lname">Last Name</string>
+    <string name="reg_mobile">Mobile #</string>
+    <string name="reg_info_contacts">Choose at least 5 contacts to invite as Friends.</string>\
+    <string name="reg_invites_to_send">These friends will be sent invites.</string>
+    <string name="reg_friends">Friends</string>
+    <!-- Strings related to RegistrationActivity END-->
+
+
+    <!-- Strings related to SubscriptionListActivity START -->
+    <string name="title_subscription_list">Subscriptions</string>
+    <string name="title_subscription_detail">Details</string>
+
+    <string name="sub_trackandnotify">911 Track And Notify</string>
+    <string name="sub_trackandnotify_descr">Share your location with your friends or family members.\nNotify them if you are in trouble by pressing the panic button,\nor let your friends track your location.</string>
+    <string name="sub_reportmunicipalproblem">Report Municipal Problem</string>
+    <string name="sub_reportmunicipalproblem_descr">Report any Municipal problems here, we will geotag your location, upload a photo and give us a short description of the problem.</string>
+
+    <!-- Strings related to SubscriptionListActivity END-->
+
+
+    <string name="title_activity_track_and_notify">Track And Notify</string>
+    <string name="title_activity_report_municipal_problem">Report Municipal Problem</string>
+
+    <string name="title_activity_main">Oops What Now?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
